@@ -1,0 +1,158 @@
+/* Start Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* Start Font*/
+
+/* Start body */
+body {
+   color: #24292e;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   line-height: 1.5em;
+   margin: 0;
+   padding: 0;
+}
+body {
+    background-image: url('../images/warong-fashion.jpg')
+}
+/* End body */
+
+/* Start Debug */
+.bg-blue {
+    background-color:
+
+}
+.bg-red {
+    background-color: #f0afb2
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+text-align: center
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+/* Start Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: #dcbd92;
+}
+.menu-primer li {
+ border-right: 1px solid #d1d5da;
+ display: inline-block;
+}
+.menu-primer a {
+    color: black;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: none;
+    color: black;
+    text-decoration:none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight:  400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28 px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #c19763;
+    border: 1px solid #dcbd92;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: left;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0px 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+.main-home-two {
+    float: right;
+    width: 49.5%
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: #e6e8e1;
+    border: 1px solid #e6e8e1;
+    border-radius: 8px 8px 0 0;
+    margin: 0px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-heading ul {
+    background-color: #f5f5f7
+}
+/* End Box */
